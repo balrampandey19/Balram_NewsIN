@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+    
+<!-- Search / will display always -->
+
+
+   
+    <!-- Location Found -->
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_action_search"
+          android:title="Search"
+          android:showAsAction="always" />
+    
+     <item android:id="@+id/action_refresh"
+          android:icon="@drawable/ic_action_refresh"
+           android:title="Refresh"
+          android:showAsAction="always"/>
+     
+    
+    <item android:id="@+id/action_select"
+          android:icon="@drawable/ic_action_overflow"
+          android:title="Select"
+          android:showAsAction="always">
+        <menu>
+            <item android:id="@+id/item1" android:title="Home"/>
+            <item android:id="@+id/item2" android:title="Share"/>
+             <item android:id="@+id/item3" android:title="About NewsIN"/>
+              <item android:id="@+id/item4" android:title="FeedBack"/>
+               <item android:id="@+id/item5" android:title="Contect Us"/>
+            
+        </menu>
+       
+           
+       
+    </item>
+     
+    <!-- Refresh -->
+   
+     
+</menu>
